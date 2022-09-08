@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -68,4 +69,73 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#7773c6), color-stop(#9d6cc0), to(#bd64b2));
+  background: linear-gradient(to right, #7773c6, #9d6cc0, #bd64b2);
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+h2 {
+  color: white;
+  font-size: 45px;
+  font-family: "Lobster", cursive;
+  margin-top: 25px;
+}
+
+#user_input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 25px;
+}
+
+#input {
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px 0 0 10px;
+}
+
+#btn {
+  width: 95px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 0 10px 10px 0;
+  background: #c0c0c0;
+}
+
+.item {
+  background: white;
+  width: 750px;
+  height: 50px;
+  margin: 25px auto 15px auto;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 20px;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
