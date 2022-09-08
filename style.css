@@ -155,13 +155,13 @@ h2 {
 }
 
 #input:focus {
-  -webkit-box-shadow: 0 0 10px #E22865;
-          box-shadow: 0 0 10px #E22865;
-  border: 1px solid #E22865;
+  -webkit-box-shadow: 0 0 10px #e22865;
+          box-shadow: 0 0 10px #e22865;
+  border: 1px solid #e22865;
 }
 
 .item:hover {
-  -webkit-box-shadow: 0 0 50px #E22865;
-          box-shadow: 0 0 50px #E22865;
-  border: 1px solid #E22865;
+  -webkit-box-shadow: 0 0 50px #e22865;
+          box-shadow: 0 0 50px #e22865;
+  border: 1px solid #e22865;
 }

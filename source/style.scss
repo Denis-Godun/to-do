@@ -3,8 +3,7 @@
 body {
   background: linear-gradient(to right, #7773c6, #9d6cc0, #bd64b2);
 }
-.container {
-}
+
 .header {
   display: flex;
   justify-content: space-around;
@@ -30,42 +29,42 @@ h2 {
   height: 40px;
   font-size: 20px;
   border-radius: 0 10px 10px 0;
-  background: 	#c0c0c0;
+  background: #c0c0c0;
 }
-.item{
-    background: white;
-    width: 750px;
-    height: 50px;
-    margin:25px auto 15px auto ;
-font-size: 20px;
-padding-left: 10px;
-padding-top: 15px;
-display: flex;
-justify-content: space-between;
-padding-right: 20px;
-}
-.icons{
+.item {
+  background: white;
+  width: 750px;
+  height: 50px;
+  margin: 25px auto 15px auto;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-top: 15px;
   display: flex;
- width: 50px;
- justify-content: space-between;
+  justify-content: space-between;
+  padding-right: 20px;
 }
-.fa-trash{
+.icons {
+  display: flex;
+  width: 50px;
+  justify-content: space-between;
+}
+.fa-trash {
   color: gray;
 }
-.fa-trash:hover{
+.fa-trash:hover {
   cursor: pointer;
   color: black;
-};
-.fa-circle-check{
+}
+.fa-circle-check {
   cursor: pointer;
   color: gray;
-};
+}
 
-#input:focus{
-  box-shadow: 0 0 10px #E22865;
-  border: 1px solid #E22865;
-};
-.item:hover{
-  box-shadow: 0 0 50px #E22865;
-  border: 1px solid #E22865;
-};
+#input:focus {
+  box-shadow: 0 0 10px #e22865;
+  border: 1px solid #e22865;
+}
+.item:hover {
+  box-shadow: 0 0 50px #e22865;
+  border: 1px solid #e22865;
+}
