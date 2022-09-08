@@ -139,3 +139,29 @@ h2 {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.fa-trash {
+  color: gray;
+}
+
+.fa-trash:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.fa-circle-check {
+  cursor: pointer;
+  color: gray;
+}
+
+#input:focus {
+  -webkit-box-shadow: 0 0 10px #E22865;
+          box-shadow: 0 0 10px #E22865;
+  border: 1px solid #E22865;
+}
+
+.item:hover {
+  -webkit-box-shadow: 0 0 50px #E22865;
+          box-shadow: 0 0 50px #E22865;
+  border: 1px solid #E22865;
+}

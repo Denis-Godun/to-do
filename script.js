@@ -1,10 +1,19 @@
 const btn = document.querySelector("#btn");
 const input = document.querySelector("input");
 const item = document.querySelector("#to_do_list");
-btn.onclick = function () {
+
+document.querySelector("#btn").onkeydown = (event) => {
+  if (event === "Esc") {
+    addItem(input.value);
+    input.value = "";
+  }
+};
+
+btn.onclick = () => {
   addItem(input.value);
   input.value = "";
 };
+
 let addItem = function (input) {
   const item = document.createElement("div");
   const div = document.createElement("div");
@@ -17,10 +26,10 @@ let addItem = function (input) {
 
   checkIcon.className = "fa-regular fa-circle-check";
   checkIcon.onclick = () => {
-checkIcon.style.color = "#00ff00";
+    checkIcon.style.color = "#00ff00";
   };
   div.appendChild(checkIcon);
-   
+
   trashIcon.className = "fa-solid fa-trash";
   trashIcon.onclick = () => {
     item.remove();
@@ -32,5 +41,5 @@ checkIcon.style.color = "#00ff00";
   item.appendChild(paragraph);
   item.appendChild(div);
 
-  document.querySelector('#to_do_list').append(item);
+  document.querySelector("#to_do_list").append(item);
 };

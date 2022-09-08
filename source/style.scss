@@ -49,3 +49,23 @@ padding-right: 20px;
  width: 50px;
  justify-content: space-between;
 }
+.fa-trash{
+  color: gray;
+}
+.fa-trash:hover{
+  cursor: pointer;
+  color: black;
+};
+.fa-circle-check{
+  cursor: pointer;
+  color: gray;
+};
+
+#input:focus{
+  box-shadow: 0 0 10px #E22865;
+  border: 1px solid #E22865;
+};
+.item:hover{
+  box-shadow: 0 0 50px #E22865;
+  border: 1px solid #E22865;
+};
